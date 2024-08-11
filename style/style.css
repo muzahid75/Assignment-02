@@ -6,17 +6,29 @@
 .primary-bg-color{
   background-color: black;
 }
+.bg-color{
+  background-color: black;
+}
+.secondary-bg-color{
+  background-color:#1A1A1A;
+}
 .font-primary{
   font-size: 3rem;
 }
+.font-secondary{
+  font-size: 2rem;
+}
 .font-tertiary{
-  font-size: 0.95rem;
+  font-size: 0.875rem;
 }
 .font-primary-color{
   color: white;
 }
 .font-secondary-color{
   color: rgba(255,255,255,0.5);
+}
+.font-tertiary-color{
+  color: rgb(230, 83, 60);
 }
 .our-team {
   width: 60%;
@@ -42,6 +54,7 @@ p.team-title-paragraph{
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
+  border-radius:20px;
 }
 
 img.our-team-image {
@@ -55,7 +68,69 @@ img.our-team-image {
     object-fit: cover;
   object-position: 65% 100%;
 }
+
+/* footer  */
+.footer{
+  width: 100%;
+  height: auto;
+  margin-top: 5.5rem;
+}
+.footer-content{
+  width: 60%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 66px 0px;
+  border-bottom: 4px solid rgba(255,255,255,0.5);
+  /* border-bottom: 2px solid color rgba(181, 27, 27, 0.5); */
+}
+.footer-content-left{
+  width: 40%;
+}
+.footer-left-title{
+  font-size: 4.37rem;
+  font-weight: 800;
+  margin-bottom: 1.25rem;
+}
+.footer-content-right{
+  width: calc(100% - 50%);
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content-child-1{
+  width: 42%;
+}
+.footer-child-1-title,.footer-child-2-title{
+  margin-bottom: 2.43rem;
+  font-weight: 700;
+}
+.footer-content-child-2{
+  width: 42%;
+}
+ul li{
+  list-style-type: none;
+  margin-bottom: 1.25rem;
+}
+ul li:last-child {
+  margin-bottom: 0;
+}
+
+ul li a{
+  text-decoration: none;
+  font-size: 1.43rem;
+}
+.copy-text{
+  /* margin: 20px 0px 20px 0px; */
+  margin: 20px auto 20px auto;
+  /* margin-bottom: 10px; */
+  color: rgba(255,255,255,0.5);
+  text-align: center;
+}
+
+
+
 @media screen and (max-width:576px) {
+
   .team-image {
     height: auto;
     grid-template-columns:repeat(1,1fr);
@@ -71,9 +146,31 @@ img.our-team-image {
     font-size: 2rem;
   }
   .team-title{
-    margin: 0px auto 2rem auto
+    margin: 0px auto 2rem auto;
   }
   .image-box{
     max-height: 256px;
+  }
+  .footer-content,.footer-content-right{
+    flex-direction: column;
+    height: auto;
+  }
+  .footer-content-left{
+    width: 80%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .footer-content-right{
+    width: 60%;
+    height: auto;
+  }
+  .footer-content-child-1{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .footer-content-child-2{
+    width: 100%;
+    height: auto;
   }
 }
