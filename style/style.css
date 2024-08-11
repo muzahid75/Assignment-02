@@ -57,7 +57,7 @@ img.our-team-image {
 }
 @media screen and (max-width:576px) {
   .team-image {
-    /* height: auto; */
+    height: auto;
     grid-template-columns:repeat(1,1fr);
     width: 100%;
   }
