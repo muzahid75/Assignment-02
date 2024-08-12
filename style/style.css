@@ -1,3 +1,4 @@
+/* our team  */
 * {
   padding: 0px;
   margin: 0px;
@@ -69,6 +70,8 @@ img.our-team-image {
   object-position: 65% 100%;
 }
 
+/* our team  */
+
 /* footer  */
 .footer{
   width: 100%;
@@ -82,7 +85,6 @@ img.our-team-image {
   justify-content: space-between;
   padding: 66px 0px;
   border-bottom: 4px solid rgba(255,255,255,0.5);
-  /* border-bottom: 2px solid color rgba(181, 27, 27, 0.5); */
 }
 .footer-content-left{
   width: 40%;
@@ -120,13 +122,48 @@ ul li a{
   font-size: 1.43rem;
 }
 .copy-text{
-  /* margin: 20px 0px 20px 0px; */
-  margin: 20px auto 20px auto;
-  /* margin-bottom: 10px; */
   color: rgba(255,255,255,0.5);
   text-align: center;
+  padding: 20px 0px;
 }
 
+/* footer  */
+/* mile  */
+.mile{
+  width: 60%;
+  height: auto;
+  margin: 100px auto;
+  border-radius: 20px;
+  /* height: 371px; */
+}
+.mile-parent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mile-child-1{
+  width: 32%;
+  margin: 41px 0px 40px 54px;
+}
+.mile-title{
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.mile-paragraph{
+  margin-bottom: 34px;
+}
+.mile-child-2{
+  width: 36%;
+  height: 37vh;
+  margin: 30px 32px 29px 0px;
+}
+img.running-img{
+  width: 100%;
+  height: 100%;
+  object-fit: none;
+  object-position: 67% 33%;
+  border-radius: 20px;
+}
 
 
 @media screen and (max-width:576px) {
@@ -151,7 +188,7 @@ ul li a{
   .image-box{
     max-height: 256px;
   }
-  .footer-content,.footer-content-right{
+  .footer-content,.footer-content-right,.mile-parent{
     flex-direction: column;
     height: auto;
   }
@@ -172,5 +209,23 @@ ul li a{
   .footer-content-child-2{
     width: 100%;
     height: auto;
+  }
+  .mile-child-1{
+    margin: 0px;
+    width: 100%;
+    padding: 10px;
+  }
+  .mile-child-2{
+    margin: 0px;
+    width: 100%;
+    padding: 10px;
+    height: auto;
+  }
+  img.running-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 67% 33%;
+    border-radius: 20px;
   }
 }
