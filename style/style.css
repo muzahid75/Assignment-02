@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -71,8 +71,7 @@
   font-size: 60px;
   font-weight: 900;
 }
-span.dance{
-
+span.dance {
 }
 .nav-title {
   font-size: 36px;
@@ -82,28 +81,28 @@ span.dance{
   height: 580px;
   position: relative;
 }
-.banner-paragraph{
+.banner-paragraph {
   margin-bottom: 28px;
 }
-.banner-btn-1{
+.banner-btn-1 {
   display: flex;
   flex-direction: row;
   gap: 25px;
 }
-.banner-btn-1 a{
+.banner-btn-1 a {
   text-decoration: none;
 }
-.join{
+.join {
   padding: 16px 60px 16px 60px;
   border-radius: 42px;
-  background-color:rgb(230, 83, 60);
+  background-color: rgb(230, 83, 60);
   color: white;
   border: none;
 }
-.download{
+.download {
   padding: 16px 40px 16px 40px;
   border-radius: 42px;
-  background-color:black;
+  background-color: black;
   color: white;
   border: 1px solid white;
 }
@@ -169,17 +168,17 @@ img.banner-img {
   padding: 10px;
   color: white;
 }
-.navigation .navigation-list a{
+.navigation .navigation-list a {
   text-decoration: none;
   color: white;
   font-size: 18px;
   padding: 10px;
 }
-#list-1{
+#list-1 {
   border-radius: 20px;
-  background-color: rgb(230, 83, 60);;
+  background-color: rgb(230, 83, 60);
 }
-#list-5{
+#list-5 {
   display: none;
 }
 
@@ -227,7 +226,6 @@ img.habit {
 /* our team  */
 .our-team {
   width: 60%;
-  /* border: 1px solid red; */
   margin: 50px auto;
 }
 .team-title {
@@ -244,7 +242,6 @@ p.team-title-paragraph {
 }
 .team-image {
   width: 100%;
-  border: 1px solid black;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -263,9 +260,19 @@ img.our-team-image {
   object-fit: cover;
   object-position: 65% 100%;
 }
+.image-box {
+  position: relative;
+}
+.image-text {
+  position: absolute;
+  height: 40px;
+  width: 140px;
+  bottom: 20px;
+  left: 10px;
+}
 
 /* healthy section start  */
-.health{
+.health {
   margin: 50px auto;
   width: 60%;
   padding: 20px;
@@ -273,39 +280,37 @@ img.our-team-image {
   justify-content: space-between;
   border-radius: 20px;
 }
-.healthy-person{
+.healthy-person {
   width: 50%;
 }
-.healthy-title-big{
+.healthy-title-big {
   font-size: 58px;
   font-weight: bold;
 }
-.healthy-title{
+.healthy-title {
   margin-bottom: 10px;
 }
-.health-image{
+.health-image {
   width: 90%;
   margin: 0px auto;
 }
-img.health-img{
+img.health-img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
 }
-.foods{
+.foods {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   width: 45%;
   gap: 20px;
-  
 }
 
-img.red-fish{
+img.red-fish {
   width: 100%;
   height: 100%;
   border-radius: 15%;
 }
-
 
 /* healthy section end  */
 
@@ -430,7 +435,6 @@ input[type="number"] {
 .footer-content-left {
   width: 40%;
   /* border: 3px solid red; */
-
 }
 .footer-left-title {
   font-size: 4.37rem;
@@ -491,7 +495,7 @@ input[type="number"] {
   font-weight: 900;
   margin-bottom: 14px;
 }
-.mile-btn{
+.mile-btn {
   margin-left: 0px;
 }
 
@@ -513,41 +517,42 @@ img.running-img {
   border-radius: 20px;
 }
 
-
-
 @media screen and (max-width: 576px) {
   /* header and banner start */
-  .banner{
+  .banner {
     flex-direction: column;
     gap: 20px;
   }
-  .banner-image{
+  .banner-image {
     width: 100%;
   }
-  .banner-content{
+  .banner-content {
     width: 100%;
   }
-  #list-5{
+  #list-5 {
     display: block;
   }
-  .navigation #list-1,#list-2,#list-3,#list-4{
+  .navigation #list-1,
+  #list-2,
+  #list-3,
+  #list-4 {
     display: none;
   }
-  .nav-bar{
+  .nav-bar {
     width: 90%;
   }
-  .banner{
+  .banner {
     width: 90%;
   }
-  .banner-img{
+  .banner-img {
     object-fit: none;
     object-position: 66% 30%;
   }
-  .banner-title{
+  .banner-title {
     font-size: 36px;
     width: 70%;
   }
-  .join{
+  .join {
     margin-left: 7px;
   }
   .banner-btn-2 {
@@ -558,22 +563,30 @@ img.running-img {
     left: 20px;
   }
   .banner-btn-3 {
-
     height: 74px;
     width: 140px;
     top: 0px;
     bottom: 400px;
     right: 10px;
   }
+  .image-text {
+    width: 120px;
+
+  }
+  .img-text-paragraph-1{
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
 
   /* header and banner end */
 
   /* habbit section start */
-  .habit{
+  .habit {
     width: 90%;
     margin: 58px auto;
   }
-   .habit-image {
+  .habit-image {
     height: auto;
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
@@ -581,7 +594,7 @@ img.running-img {
   .habit-content {
     width: 100%;
   }
-  .habit-box{
+  .habit-box {
     width: 80%;
     margin: 0px auto;
   }
@@ -647,14 +660,14 @@ img.running-img {
     gap: 30px;
     padding: 33px;
   }
-  .mile-button{
+  .mile-button {
     text-align: center;
   }
-  .mile-btn{
+  .mile-btn {
     padding: 16px 100px;
     margin-left: 0px;
   }
-  .mile-title{
+  .mile-title {
     font-size: 32px;
   }
   .mile-child-1 {
@@ -681,7 +694,7 @@ img.running-img {
   .bmi {
     width: 90%;
   }
-  .bmi-title{
+  .bmi-title {
     font-size: 32px;
   }
   /* bmi  section end */
@@ -702,16 +715,16 @@ img.running-img {
   .chart {
     width: 100%;
   }
-  .health{
+  .health {
     flex-direction: column;
     width: 90%;
     gap: 20px;
   }
-  .healthy-person{
+  .healthy-person {
     width: 100%;
     height: auto;
   }
-  .foods{
+  .foods {
     grid-template-columns: 1fr;
     width: 100%;
   }
