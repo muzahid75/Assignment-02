@@ -238,7 +238,7 @@ img.habit {
 /* our team  */
 .our-team {
   width: 60%;
-  /* border: 1px solid black; */
+  /* border: 1px solid red; */
   margin: 50px auto;
 }
 .team-title {
@@ -544,6 +544,12 @@ img.running-img {
     margin: 0px auto;
   }
   /* habit section end  */
+
+  /* team section start  */
+  .our-team {
+    width: 90%;
+    height: auto;
+  }
   .team-image {
     height: auto;
     grid-template-columns: repeat(1, 1fr);
@@ -563,8 +569,9 @@ img.running-img {
     margin: 0px auto 2rem auto;
   }
   .image-box {
-    max-height: 256px;
+    max-height: 356px;
   }
+  /* team section end  */
   .footer-content,
   .footer-content-right {
     flex-direction: column;
