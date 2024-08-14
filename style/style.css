@@ -4,37 +4,40 @@
   margin: 0px;
   box-sizing: border-box;
 }
-.primary-bg-color{
+.primary-bg-color {
   background-color: black;
 }
-.bg-color{
+.bg-color {
   background-color: black;
 }
-.secondary-bg-color{
-  background-color:#1A1A1A;
+.secondary-bg-color {
+  background-color: #1a1a1a;
 }
-.font-primary{
+.font-primary {
   font-size: 3rem;
 }
-.font-secondary{
+.font-secondary {
   font-size: 2rem;
 }
-.font-tertiary{
+.font-tertiary {
   font-size: 0.875rem;
 }
-.font-primary-color{
+.font-quaternary {
+  font-size: 18px;
+}
+.font-primary-color {
   color: white;
 }
-.font-secondary-color{
-  color: rgba(255,255,255,0.5);
+.font-secondary-color {
+  color: rgba(255, 255, 255, 0.5);
 }
-.font-tertiary-color{
+.font-tertiary-color {
   color: rgb(230, 83, 60);
 }
 .our-team {
   width: 60%;
   border: 1px solid black;
-  margin: 0px auto;
+  margin: 50px auto;
 }
 .team-title {
   width: 52%;
@@ -42,10 +45,10 @@
   text-align: center;
   margin: 0px auto 3.5rem auto;
 }
-h2.team-title-heading{
+h2.team-title-heading {
   font-weight: 900;
 }
-p.team-title-paragraph{
+p.team-title-paragraph {
   margin-top: 14px;
 }
 .team-image {
@@ -55,7 +58,7 @@ p.team-title-paragraph{
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
-  border-radius:20px;
+  border-radius: 20px;
 }
 
 img.our-team-image {
@@ -65,51 +68,150 @@ img.our-team-image {
   object-fit: cover;
   object-position: 10% 100%;
 }
-#img-4{
-    object-fit: cover;
+#img-4 {
+  object-fit: cover;
   object-position: 65% 100%;
 }
 
+/* bmi */
+
+.bmi {
+  width: 32%;
+  /* border: 2px solid red; */
+  margin: 0px auto 88px auto;
+}
+.bmi-title {
+  margin-bottom: 14px;
+}
+.bmi-paragraph {
+}
+
+/* bmi calculator */
+.bmi-calculator {
+  width: 100%;
+  /* border: 2px solid red; */
+  margin: 0px 0px 88px 0px;
+}
+.calculate-parent {
+  width: 60%;
+  /* border: 2px solid white; */
+  padding: 52px 0px;
+  margin: 0px auto;
+  justify-content: space-between;
+  display: flex;
+  gap: 10px;
+}
+.chart {
+  /* border: 1px solid red; */
+  width: 35%;
+}
+.chart-title,
+.calculate-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 52px;
+}
+table {
+  width: 80%;
+  height: 200px;
+}
+table,
+th,
+tr,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}
+.calculate {
+  /* border: 1px solid blue; */
+  width: 60%;
+}
+form {
+  margin: 34px 0px;
+}
+input[type="number"] {
+  /* height: 48px; */
+  width: calc(50% - 7px);
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgb(57, 57, 57);
+  color: rgba(255, 255, 255, 0.5);
+  border: none;
+  outline: none;
+  /* display: block; */
+}
+#height {
+  margin: 0px 5px 5px 0px;
+}
+#weight {
+  margin: 0px 0px 5px 5px;
+}
+#age {
+  margin: 5px 5px 5px 0px;
+}
+#Sex {
+  width: calc(50% - 7px);
+  margin: 5px 0px 5px 5px;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: rgb(57, 57, 57);
+  color: rgba(255, 255, 255, 0.5);
+  outline: none;
+  border: none;
+}
+#factor {
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0px 0px 0px;
+  border-radius: 8px;
+  background-color: rgb(57, 57, 57);
+  color: rgba(255, 255, 255, 0.5);
+  border: none;
+  outline: none;
+}
 /* our team  */
 
 /* footer  */
-.footer{
+.footer {
   width: 100%;
   height: auto;
   margin-top: 5.5rem;
 }
-.footer-content{
+.footer-content {
   width: 60%;
   margin: 0px auto;
   display: flex;
   justify-content: space-between;
   padding: 66px 0px;
-  border-bottom: 4px solid rgba(255,255,255,0.5);
+  border-bottom: 4px solid rgba(255, 255, 255, 0.5);
 }
-.footer-content-left{
+.footer-content-left {
   width: 40%;
 }
-.footer-left-title{
+.footer-left-title {
   font-size: 4.37rem;
   font-weight: 800;
   margin-bottom: 1.25rem;
 }
-.footer-content-right{
+.footer-content-right {
   width: calc(100% - 50%);
   display: flex;
   justify-content: space-between;
 }
-.footer-content-child-1{
+.footer-content-child-1 {
   width: 42%;
 }
-.footer-child-1-title,.footer-child-2-title{
+.footer-child-1-title,
+.footer-child-2-title {
   margin-bottom: 2.43rem;
   font-weight: 700;
 }
-.footer-content-child-2{
+.footer-content-child-2 {
   width: 42%;
 }
-ul li{
+ul li {
   list-style-type: none;
   margin-bottom: 1.25rem;
 }
@@ -117,47 +219,47 @@ ul li:last-child {
   margin-bottom: 0;
 }
 
-ul li a{
+ul li a {
   text-decoration: none;
   font-size: 1.43rem;
 }
-.copy-text{
-  color: rgba(255,255,255,0.5);
+.copy-text {
+  color: rgba(255, 255, 255, 0.5);
   text-align: center;
   padding: 20px 0px;
 }
 
 /* footer  */
 /* mile  */
-.mile{
+.mile {
   width: 60%;
   height: auto;
-  margin: 100px auto;
+  margin: 100px auto 88px auto;
   border-radius: 20px;
   /* height: 371px; */
 }
-.mile-parent{
+.mile-parent {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.mile-child-1{
+.mile-child-1 {
   width: 32%;
   margin: 41px 0px 40px 54px;
 }
-.mile-title{
+.mile-title {
   font-weight: 900;
   margin-bottom: 14px;
 }
-.mile-paragraph{
+.mile-paragraph {
   margin-bottom: 34px;
 }
-.mile-child-2{
+.mile-child-2 {
   width: 36%;
   height: 37vh;
   margin: 30px 32px 29px 0px;
 }
-img.running-img{
+img.running-img {
   width: 100%;
   height: 100%;
   object-fit: none;
@@ -165,67 +267,141 @@ img.running-img{
   border-radius: 20px;
 }
 
+/* habit  */
+.habbit {
+  width: 60%;
+  /* border: 2px solid red; */
+  height: auto;
+  margin: 100px auto;
+}
+.habit-content {
+  text-align: center;
+  width: 52%;
+  margin: 0px auto 58px auto;
+  /* border: 2px solid white; */
+}
+.habit-title {
+  /* text-align: center; */
+  margin-bottom: 14px;
+}
+.habit-paragraph {
+  /* text-align: center; */
+  /* margin-bottom: 58px; */
+}
+.habit-image {
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+.habit-img-content {
+  text-align: center;
+}
+.habit-box {
+  /* border: 2px solid white; */
+}
+img.habit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
 
-@media screen and (max-width:576px) {
-
+@media screen and (max-width: 576px) {
   .team-image {
     height: auto;
-    grid-template-columns:repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     width: 100%;
   }
-  #img-box-1,#img-box-4{
+  #img-box-1,
+  #img-box-4 {
     display: none;
   }
-  .team-title{
+  .team-title {
     width: 100%;
   }
-  .font-primary{
+  .font-primary {
     font-size: 2rem;
   }
-  .team-title{
+  .team-title {
     margin: 0px auto 2rem auto;
   }
-  .image-box{
+  .image-box {
     max-height: 256px;
   }
-  .footer-content,.footer-content-right,.mile-parent{
+  .footer-content,
+  .footer-content-right,
+  .mile-parent {
     flex-direction: column;
     height: auto;
   }
-  .footer-content-left{
+  .footer-content-left {
     width: 80%;
     height: auto;
     margin-bottom: 30px;
   }
-  .footer-content-right{
+  .footer-content-right {
     width: 60%;
     height: auto;
   }
-  .footer-content-child-1{
+  .footer-content-child-1 {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
   }
-  .footer-content-child-2{
+  .footer-content-child-2 {
     width: 100%;
     height: auto;
   }
-  .mile-child-1{
+  .mile-child-1 {
     margin: 0px;
     width: 100%;
     padding: 10px;
   }
-  .mile-child-2{
+  .mile-child-2 {
     margin: 0px;
     width: 100%;
     padding: 10px;
     height: auto;
   }
-  img.running-img{
+  img.running-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: 67% 33%;
     border-radius: 20px;
+  }
+
+  /* bmi  */
+  .bmi {
+    width: 90%;
+  }
+
+  /* habbit  */
+  .habit-image {
+    height: auto;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  .habit-content {
+    width: 100%;
+  }
+  .bmi-calculator {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .calculate-parent {
+    flex-direction: column;
+    width: 90%;
+    gap: 42px;
+  }
+  .calculate {
+    width: 100%;
+  }
+  .chart{
+    width: 100%;
   }
 }
