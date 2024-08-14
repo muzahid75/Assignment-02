@@ -194,6 +194,47 @@ img.banner-img {
   display: none;
 }
 
+/* header section end  */
+
+/* habit section start  */
+
+.habit {
+  width: 60%;
+  /* border: 2px solid red; */
+  height: auto;
+  margin: 100px auto;
+}
+.habit-content {
+  text-align: center;
+  width: 52%;
+  margin: 0px auto 58px auto;
+  /* border: 2px solid white; */
+}
+.habit-title {
+  /* text-align: center; */
+  margin-bottom: 14px;
+}
+.habit-image {
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+.habit-img-content {
+  text-align: center;
+}
+img.habit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+/* habit section end  */
+
 /* our team  */
 .our-team {
   width: 60%;
@@ -247,7 +288,9 @@ img.our-team-image {
 .bmi-paragraph {
 }
 
-/* bmi calculator */
+/* bmi end */
+
+/* bmi calculator start*/
 .bmi-calculator {
   width: 100%;
   /* border: 2px solid red; */
@@ -294,7 +337,7 @@ form {
 }
 input[type="number"] {
   /* height: 48px; */
-  width: calc(50% - 7px);
+  width: calc(50% - 8px);
   padding: 20px;
   border-radius: 8px;
   background-color: rgb(57, 57, 57);
@@ -339,10 +382,12 @@ input[type="number"] {
   width: 100%;
   height: auto;
   margin-top: 5.5rem;
+  /* border: 2px solid red; */
 }
 .footer-content {
   width: 60%;
   margin: 0px auto;
+  /* border: 3px solid red; */
   display: flex;
   justify-content: space-between;
   padding: 66px 0px;
@@ -350,6 +395,8 @@ input[type="number"] {
 }
 .footer-content-left {
   width: 40%;
+  /* border: 3px solid red; */
+
 }
 .footer-left-title {
   font-size: 4.37rem;
@@ -428,48 +475,7 @@ img.running-img {
   border-radius: 20px;
 }
 
-/* habit  */
-.habbit {
-  width: 60%;
-  /* border: 2px solid red; */
-  height: auto;
-  margin: 100px auto;
-}
-.habit-content {
-  text-align: center;
-  width: 52%;
-  margin: 0px auto 58px auto;
-  /* border: 2px solid white; */
-}
-.habit-title {
-  /* text-align: center; */
-  margin-bottom: 14px;
-}
-.habit-paragraph {
-  /* text-align: center; */
-  /* margin-bottom: 58px; */
-}
-.habit-image {
-  /* border: 2px solid red; */
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: flex-start;
-  align-items: center;
-  gap: 40px;
-}
-.habit-img-content {
-  text-align: center;
-}
-.habit-box {
-  /* border: 2px solid white; */
-}
-img.habit {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-  margin-bottom: 30px;
-}
+
 
 @media screen and (max-width: 576px) {
   /* header and banner start */
@@ -519,6 +525,25 @@ img.habit {
   }
 
   /* header and banner end */
+
+  /* habbit section start */
+  .habit{
+    width: 90%;
+    margin: 58px auto;
+  }
+   .habit-image {
+    height: auto;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+  .habit-content {
+    width: 100%;
+  }
+  .habit-box{
+    width: 80%;
+    margin: 0px auto;
+  }
+  /* habit section end  */
   .team-image {
     height: auto;
     grid-template-columns: repeat(1, 1fr);
@@ -541,10 +566,10 @@ img.habit {
     max-height: 256px;
   }
   .footer-content,
-  .footer-content-right,
-  .mile-parent {
+  .footer-content-right {
     flex-direction: column;
     height: auto;
+    width: 90%;
   }
   .footer-content-left {
     width: 80%;
@@ -564,6 +589,15 @@ img.habit {
     width: 100%;
     height: auto;
   }
+
+  /* footer end  */
+
+  /* mile start  */
+  .mile-parent {
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+  }
   .mile-child-1 {
     margin: 0px;
     width: 100%;
@@ -582,21 +616,18 @@ img.habit {
     object-position: 67% 33%;
     border-radius: 20px;
   }
+  /* mile end  */
 
-  /* bmi  */
+  /* bmi  section start */
   .bmi {
     width: 90%;
   }
+  .bmi-title{
+    font-size: 32px;
+  }
+  /* bmi  section end */
 
-  /* habbit  */
-  .habit-image {
-    height: auto;
-    grid-template-columns: repeat(1, 1fr);
-    width: 100%;
-  }
-  .habit-content {
-    width: 100%;
-  }
+  /* bmi  calculator start */
   .bmi-calculator {
     width: 100%;
     margin: 0px auto;
