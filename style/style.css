@@ -53,39 +53,31 @@
 }
 .nav-bar {
   width: 60%;
-  /* height: 300px; */
-  border: 2px solid red;
   margin: 0px auto 50px auto;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
 }
 .banner {
   width: 60%;
-  border: 2px solid red;
   margin: 50px auto;
   display: flex;
   gap: 120px;
   align-items: center;
-  /* justify-content: space-between; */
 }
 .banner-content {
-  border: 2px solid white;
   width: 42%;
 }
 .banner-title {
   font-size: 60px;
   font-weight: 900;
 }
-span.miama{
+span.dance{
 
 }
 .nav-title {
-  border: 2px solid red;
   font-size: 36px;
 }
 .banner-image {
-  border: 2px solid red;
   width: 40%;
   height: 580px;
   position: relative;
@@ -102,7 +94,7 @@ span.miama{
   text-decoration: none;
 }
 .join{
-  padding: 16px 40px 16px 40px;
+  padding: 16px 60px 16px 60px;
   border-radius: 42px;
   background-color:rgb(230, 83, 60);
   color: white;
@@ -116,7 +108,6 @@ span.miama{
   border: 1px solid white;
 }
 .banner-btn-2 {
-  border: 2px solid red;
   position: absolute;
   height: 90px;
   width: 170px;
@@ -149,7 +140,6 @@ span.btn-3 {
   font-weight: 900;
 }
 .banner-btn-3 {
-  /* border: 2px solid red; */
   position: absolute;
   height: 90px;
   width: 170px;
@@ -169,7 +159,6 @@ img.banner-img {
   height: 100%;
 }
 .navigation {
-  /* border: 2px solid gray; */
   display: flex;
   align-items: center;
   gap: 30px;
@@ -442,15 +431,13 @@ input[type="number"] {
 .mile {
   width: 60%;
   height: auto;
-  margin: 100px auto 88px auto;
+  margin: 88px auto 88px auto;
   border-radius: 20px;
-  /* height: 371px; */
-}
-.mile-parent {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .mile-child-1 {
   width: 32%;
   margin: 41px 0px 40px 54px;
@@ -459,19 +446,25 @@ input[type="number"] {
   font-weight: 900;
   margin-bottom: 14px;
 }
+.mile-btn{
+  margin-left: 0px;
+}
+
 .mile-paragraph {
   margin-bottom: 34px;
 }
+
 .mile-child-2 {
-  width: 36%;
-  height: 37vh;
-  margin: 30px 32px 29px 0px;
+  width: 46%;
+  height: 50vh;
+  margin: 30px 32px 29px 30px;
+  /* border: 2px solid red; */
 }
 img.running-img {
   width: 100%;
   height: 100%;
   object-fit: none;
-  object-position: 67% 33%;
+  object-position: 68% 30%;
   border-radius: 20px;
 }
 
@@ -500,6 +493,10 @@ img.running-img {
   }
   .banner{
     width: 90%;
+  }
+  .banner-img{
+    object-fit: none;
+    object-position: 66% 30%;
   }
   .banner-title{
     font-size: 36px;
@@ -568,9 +565,7 @@ img.running-img {
   .team-title {
     margin: 0px auto 2rem auto;
   }
-  .image-box {
-    max-height: 356px;
-  }
+
   /* team section end  */
   .footer-content,
   .footer-content-right {
@@ -600,10 +595,22 @@ img.running-img {
   /* footer end  */
 
   /* mile start  */
-  .mile-parent {
+  .mile {
     flex-direction: column;
     height: auto;
     width: 90%;
+    gap: 30px;
+    padding: 33px;
+  }
+  .mile-button{
+    text-align: center;
+  }
+  .mile-btn{
+    padding: 16px 100px;
+    margin-left: 0px;
+  }
+  .mile-title{
+    font-size: 32px;
   }
   .mile-child-1 {
     margin: 0px;
